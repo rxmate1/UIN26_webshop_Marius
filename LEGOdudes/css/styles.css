@@ -116,14 +116,13 @@ main {
 
     #product-list {
 
-    
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-left: 1rem;
     padding-right: 1rem;
     gap: 1rem;
+    
     }
 
     h2{
@@ -176,6 +175,7 @@ main {
 #cart {
     width: 550px;
     background: var(--black);
+    color: var(--white);
     border-left: 0.5rem solid var(--green);
     border-bottom: 0.5rem solid var(--green);
     padding: 1rem;
