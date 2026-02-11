@@ -3,8 +3,6 @@ export default function ShoppingItem({ item }) {
         <li> 
             <input type="checkbox" checked={item.bought} readonly />
             {item.name} ({item.amount})
-
-            {item.bought ? "✅" : "⬜"} {item.name}
         </li>
             
         
