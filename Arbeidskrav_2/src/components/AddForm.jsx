@@ -1,4 +1,8 @@
-function AddForm() {
+import { useState } from "react"
+import Counter from "./Counter"
+import ShoppingList from "./ShoppingList"
+
+export default function AddForm() {
     return (
         <form>
             <label>
@@ -11,7 +15,9 @@ function AddForm() {
                 <input type="text" />
             </label>
 
-            <button>Legg til</button>
+            <Counter />
+
         </form>
     )
+
 }

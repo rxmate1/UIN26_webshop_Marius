@@ -1,5 +1,7 @@
 import { useState } from "react"
 import ShoppingList from "./components/ShoppingList"
+import Counter from "./components/Counter"
+import AddForm from "./components/AddForm"
 
 function App() {
 
@@ -11,9 +13,11 @@ const [items, setItems] = useState ([
 return (
   <main>
     <h1>Handleliste</h1>
+    <AddForm />
     <ShoppingList items={items} />
   </main>
 )
+
 
 }
 export default App
